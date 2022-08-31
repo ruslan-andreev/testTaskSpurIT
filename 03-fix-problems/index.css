@@ -1,11 +1,9 @@
-
 body{
     margin: 0;
     font-family: 'Arial', sans-serif;
     text-align: left;
     background: cornsilk;
 }
-
 .article{
     margin: 0 auto;
     max-width: 680px;

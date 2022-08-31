@@ -16,8 +16,8 @@ let contentStatus = true
 // в константы определяем првила анимации
 //начальное и конечное положение для анимации
 const animateContent = [
-  { transform: 'translateY(-100%)', opacity: '0' },
-  { transform: 'translateY(0)', opacity: '1' },
+  { height: 'auto', opacity: '0' },
+  { maxHeight: '0px', opacity: '1', overflow: 'hiden'},
 ]
 
 //задаем направление анимации и скорость (открываем контент)
